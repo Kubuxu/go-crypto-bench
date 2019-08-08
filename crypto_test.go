@@ -35,7 +35,7 @@ func BenchmarkAES128GCM(b *testing.B) {
 	benchmarkAESX(b, 128/8)
 }
 
-func BenchmarkAES256CM(b *testing.B) {
+func BenchmarkAES256GCM(b *testing.B) {
 	benchmarkAESX(b, 256/8)
 }
 
